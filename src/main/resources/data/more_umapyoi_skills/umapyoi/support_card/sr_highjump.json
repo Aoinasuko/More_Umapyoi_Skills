@@ -1,0 +1,22 @@
+{
+  "type": "strength",
+  "max_damage": 10,
+  "ranking": "sr",
+  "supports": [
+    {
+      "level": 2,
+      "support": "umapyoi:strength_support"
+    },
+    {
+      "level": 2,
+      "support": "umapyoi:actionpoint_support"
+    },
+    {
+      "level": 1,
+      "support": "umapyoi:skill_support",
+      "tag": {
+        "skill": "more_umapyoi_skills:highjump"
+      }
+    }
+  ]
+}

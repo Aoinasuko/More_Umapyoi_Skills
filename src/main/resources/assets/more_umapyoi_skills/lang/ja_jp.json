@@ -1,0 +1,33 @@
+{
+  "=== サポートカード ===" : "",
+  "support_card.more_umapyoi_skills.sr_pegasus.name": "[スキルトレーニング] 天馬の夢",
+  "support_card.more_umapyoi_skills.ssr_lordofsky.name": "[スキルトレーニング] 天の覇者の夢",
+
+  "support_card.more_umapyoi_skills.sr_highjump.name": "[スキルトレーニング] 高跳びの夢",
+  "support_card.more_umapyoi_skills.ssr_powerfuljump.name": "[スキルトレーニング] 力強い跳躍の夢",
+
+  "support_card.more_umapyoi_skills.sr_tricky.name": "[スキルトレーニング] トリッキーの夢",
+  "support_card.more_umapyoi_skills.ssr_acrobat.name": "[スキルトレーニング] 曲芸師の夢",
+
+  "support_card.more_umapyoi_skills.ssr_hardstruggle.name": "[スキルトレーニング] 力戦奮闘の夢",
+
+  "=== スキル ===" : "",
+  "uma_skill.more_umapyoi_skills.pegasus" : "天馬",
+  "uma_skill.more_umapyoi_skills.lordofsky" : "天の覇者",
+
+  "uma_skill.more_umapyoi_skills.highjump" : "高跳び",
+  "uma_skill.more_umapyoi_skills.powerfuljump" : "力強い跳躍",
+
+  "uma_skill.more_umapyoi_skills.tricky" : "トリッキー",
+  "uma_skill.more_umapyoi_skills.acrobat" : "曲芸師",
+
+  "uma_skill.more_umapyoi_skills.hardstruggle" : "力戦奮闘",
+
+  "=== バフ効果 ===" : "",
+  "effect.more_umapyoi_skills.pegasus": "天馬",
+  "effect.more_umapyoi_skills.action_cooldown": "スキルクールダウン",
+
+  "=== システムメッセージ ===" : "",
+  "info.more_umapyoi_skills.iscooldown" : "このスキルはクールダウン中。"
+
+}

@@ -1,0 +1,17 @@
+[日本語]
+MITライセンスの条項に則って、以下に改変および一部使用しているMODの一覧を表記します。
+
+Umapyoi By Zheng Syameimaru
+https://github.com/0999312/umapyoi
+
+Umapyoi-Addon-Pack By Zheng Syameimaru
+https://github.com/0999312/Umapyoi-Addon-Pack
+
+[English]
+In accordance with the terms of the MIT License, the following is a list of modifications and partial uses of the mods.
+
+Umapyoi By Zheng Syameimaru
+https://github.com/0999312/umapyoi
+
+Umapyoi-Addon-Pack By Zheng Syameimaru
+https://github.com/0999312/Umapyoi-Addon-Pack

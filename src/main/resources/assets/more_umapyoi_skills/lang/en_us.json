@@ -1,0 +1,33 @@
+{
+  "=== サポートカード ===" : "",
+  "support_card.more_umapyoi_skills.sr_pegasus.name": "[Skill Training] Pegasus Dream",
+  "support_card.more_umapyoi_skills.ssr_lordofsky.name": "[Skill Training] Lord of Sky Dream",
+
+  "support_card.more_umapyoi_skills.sr_highjump.name": "[Skill Training] HighJump Dream",
+  "support_card.more_umapyoi_skills.ssr_powerfuljump.name": "[Skill Training] PowerfulJump Dream",
+
+  "support_card.more_umapyoi_skills.sr_tricky.name": "[Skill Training] Tricky Dream",
+  "support_card.more_umapyoi_skills.ssr_acrobat.name": "[Skill Training] Acrobat Dream",
+
+  "support_card.more_umapyoi_skills.ssr_hardstruggle.name": "[Skill Training] HardStruggle Dream",
+
+  "=== スキル ===" : "",
+  "uma_skill.more_umapyoi_skills.pegasus": "Pegasus",
+  "uma_skill.more_umapyoi_skills.lordofsky": "Lord of Sky",
+
+  "uma_skill.more_umapyoi_skills.highjump": "HighJump",
+  "uma_skill.more_umapyoi_skills.powerfuljump": "PowerfulJump",
+
+  "uma_skill.more_umapyoi_skills.tricky": "Tricky",
+  "uma_skill.more_umapyoi_skills.acrobat": "Acrobat",
+
+  "uma_skill.more_umapyoi_skills.hardstruggle": "HardStruggle",
+
+  "=== バフ効果 ===" : "",
+  "effect.more_umapyoi_skills.pegasus": "Pegasus",
+  "effect.more_umapyoi_skills.action_cooldown": "Action Cooldown",
+
+  "=== システムメッセージ ===" : "",
+  "info.more_umapyoi_skills.iscooldown" : "This skill is cooldown now."
+
+}

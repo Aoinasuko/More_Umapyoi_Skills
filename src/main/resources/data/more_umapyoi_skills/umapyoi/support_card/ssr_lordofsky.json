@@ -1,0 +1,22 @@
+{
+  "type": "wisdom",
+  "max_damage": 10,
+  "ranking": "ssr",
+  "supports": [
+    {
+      "level": 3,
+      "support": "umapyoi:wisdom_support"
+    },
+    {
+      "level": 2,
+      "support": "umapyoi:speed_support"
+    },
+    {
+      "level": 1,
+      "support": "umapyoi:skill_support",
+      "tag": {
+        "skill": "more_umapyoi_skills:lordofsky"
+      }
+    }
+  ]
+}
