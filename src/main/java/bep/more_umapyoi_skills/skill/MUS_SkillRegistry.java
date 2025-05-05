@@ -25,4 +25,14 @@ public class MUS_SkillRegistry {
     // 調子回復スキル
     public static final RegistryObject<UmaSkill> HARDSTRUGGLE = SKILLS.register("hardstruggle", () -> new HardStruggle_Skill(new UmaSkill.Builder().level(2).type(SkillType.HEAL).actionPoint(1900).requiredWisdom(6)));
 
+    // ブリンクスキル
+    public static final RegistryObject<UmaSkill> BLINK = SKILLS.register("blink", () -> new BlinkSkill_Skill(new UmaSkill.Builder().level(1).type(SkillType.BUFF).actionPoint(100).requiredWisdom(2)));
+
+    // 威嚇スキル
+    public static final RegistryObject<UmaSkill> MENACE = SKILLS.register("menace", () -> new Menace_Skill(new UmaSkill.Builder().level(1).type(SkillType.HINDER).actionPoint(400).requiredWisdom(2)));
+    public static final RegistryObject<UmaSkill> HIGHMENACE = SKILLS.register("highmenace", () -> new Menace_Skill(new UmaSkill.Builder().level(2).type(SkillType.HINDER).actionPoint(900).requiredWisdom(4)));
+
+    // 不死鳥スキル
+    public static final RegistryObject<UmaSkill> PHOENIX = SKILLS.register("phoenix", () -> new Phoenix_Skill(new UmaSkill.Builder().level(2).type(SkillType.HEAL).actionPoint(0).requiredWisdom(6)));
+
 }

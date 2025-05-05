@@ -181,10 +181,10 @@ dependencies {
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1")
 
     // MML
-    implementation fg.deobf("curse.maven:mysterious-mountain-lib-368098:6258665")
+    implementation fg.deobf("curse.maven:mysterious-mountain-lib-368098:6497236")
 
     // Umapyoi
-    implementation fg.deobf("curse.maven:umapyoi-776121:6357116")
+    implementation fg.deobf("curse.maven:umapyoi-776121:6497211")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html

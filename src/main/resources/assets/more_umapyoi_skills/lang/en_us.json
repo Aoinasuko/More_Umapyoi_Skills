@@ -11,6 +11,13 @@
 
   "support_card.more_umapyoi_skills.ssr_hardstruggle.name": "[Skill Training] HardStruggle Dream",
 
+  "support_card.more_umapyoi_skills.sr_blink.name": "[Skill Training] Blink Dream",
+
+  "support_card.more_umapyoi_skills.sr_menace.name": "[Skill Training] Menace Dream",
+  "support_card.more_umapyoi_skills.ssr_highmenace.name": "[Skill Training] HighMenace Dream",
+
+  "support_card.more_umapyoi_skills.ssr_phoenix.name": "[Skill Training] Phoenix Dream",
+
   "=== スキル ===" : "",
   "uma_skill.more_umapyoi_skills.pegasus": "Pegasus",
   "uma_skill.more_umapyoi_skills.lordofsky": "Lord of Sky",
@@ -22,6 +29,13 @@
   "uma_skill.more_umapyoi_skills.acrobat": "Acrobat",
 
   "uma_skill.more_umapyoi_skills.hardstruggle": "HardStruggle",
+
+  "uma_skill.more_umapyoi_skills.blink": "Blink",
+
+  "uma_skill.more_umapyoi_skills.menace": "Menace",
+  "uma_skill.more_umapyoi_skills.highmenace": "HighMenace",
+
+  "uma_skill.more_umapyoi_skills.phoenix": "Phoenix",
 
   "=== バフ効果 ===" : "",
   "effect.more_umapyoi_skills.pegasus": "Pegasus",

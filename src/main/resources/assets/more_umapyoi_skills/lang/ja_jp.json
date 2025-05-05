@@ -11,6 +11,13 @@
 
   "support_card.more_umapyoi_skills.ssr_hardstruggle.name": "[スキルトレーニング] 力戦奮闘の夢",
 
+  "support_card.more_umapyoi_skills.sr_blink.name": "[スキルトレーニング] 俊足の夢",
+
+  "support_card.more_umapyoi_skills.sr_menace.name": "[スキルトレーニング] 威嚇の夢",
+  "support_card.more_umapyoi_skills.ssr_highmenace.name": "[スキルトレーニング] 超威嚇の夢",
+
+  "support_card.more_umapyoi_skills.ssr_phoenix.name": "[スキルトレーニング] 不死鳥の夢",
+
   "=== スキル ===" : "",
   "uma_skill.more_umapyoi_skills.pegasus" : "天馬",
   "uma_skill.more_umapyoi_skills.lordofsky" : "天の覇者",
@@ -22,6 +29,13 @@
   "uma_skill.more_umapyoi_skills.acrobat" : "曲芸師",
 
   "uma_skill.more_umapyoi_skills.hardstruggle" : "力戦奮闘",
+
+  "uma_skill.more_umapyoi_skills.blink" : "俊足",
+
+  "uma_skill.more_umapyoi_skills.menace": "威嚇",
+  "uma_skill.more_umapyoi_skills.highmenace": "超威嚇",
+
+  "uma_skill.more_umapyoi_skills.phoenix": "不死鳥",
 
   "=== バフ効果 ===" : "",
   "effect.more_umapyoi_skills.pegasus": "天馬",
