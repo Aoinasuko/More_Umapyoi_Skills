@@ -5,14 +5,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.tracen.umapyoi.registry.skills.SkillType;
 import net.tracen.umapyoi.registry.skills.UmaSkill;
+import net.tracen.umapyoi.registry.skills.passive.PassiveSkill;
 
 public class MUS_SkillRegistry {
 
     public static final DeferredRegister<UmaSkill> SKILLS = DeferredRegister.create(UmaSkill.REGISTRY_KEY, More_Umapyoi_Skills.MODID);
 
     // 飛行系スキル
-    public static final RegistryObject<UmaSkill> PEGASUS = SKILLS.register("pegasus", () -> new Pegasus_Skill(new UmaSkill.Builder().level(1).type(SkillType.BUFF).actionPoint(900).requiredWisdom(4)));
-    public static final RegistryObject<UmaSkill> LORDOFSKY = SKILLS.register("lordofsky", () -> new Pegasus_Skill(new UmaSkill.Builder().level(2).type(SkillType.BUFF).actionPoint(1400).requiredWisdom(6)));
+    public static final RegistryObject<UmaSkill> PEGASUS = SKILLS.register("pegasus", () -> new Pegasus_Skill(new UmaSkill.Builder().level(1).type(SkillType.BUFF).actionPoint(900).requiredWisdom(6)));
+    public static final RegistryObject<UmaSkill> LORDOFSKY = SKILLS.register("lordofsky", () -> new Pegasus_Skill(new UmaSkill.Builder().level(2).type(SkillType.BUFF).actionPoint(1400).requiredWisdom(8)));
 
     // 跳躍系スキル
     public static final RegistryObject<UmaSkill> HIGHJUMP = SKILLS.register("highjump", () -> new Jump_Skill(new UmaSkill.Builder().level(1).type(SkillType.BUFF).actionPoint(100).requiredWisdom(2)));
@@ -34,5 +35,18 @@ public class MUS_SkillRegistry {
 
     // 不死鳥スキル
     public static final RegistryObject<UmaSkill> PHOENIX = SKILLS.register("phoenix", () -> new Phoenix_Skill(new UmaSkill.Builder().level(2).type(SkillType.HEAL).actionPoint(0).requiredWisdom(6)));
+
+    // 黒花のかく乱スキル
+    public static final RegistryObject<UmaSkill> WITHERROSESMASH = SKILLS.register("witherrosesmash", () -> new WitherRoseSmash_Skill(new UmaSkill.Builder().level(1).type(SkillType.HINDER).actionPoint(900).requiredWisdom(6)));
+
+    // パッシブスキル
+    public static final RegistryObject<UmaSkill> ENOUGHSTRENGTH = SKILLS.register("enoughstrength", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).requiredWisdom(2)));
+    public static final RegistryObject<UmaSkill> BRILLIANTTECHNIQUE = SKILLS.register("brillianttechnique", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).requiredWisdom(6)));
+    public static final RegistryObject<UmaSkill> SMARTLANDING = SKILLS.register("smartlanding", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).requiredWisdom(6)));
+    public static final RegistryObject<UmaSkill> STRONGSMASH = SKILLS.register("strongsmash", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).requiredWisdom(6)));
+    public static final RegistryObject<UmaSkill> STRONGLEGS = SKILLS.register("stronglegs", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).requiredWisdom(6)));
+
+    // イースターエッグスキル
+    public static final RegistryObject<UmaSkill> IMMORTALWILL = SKILLS.register("immortalwill", () -> new PassiveSkill(new UmaSkill.Builder().level(1).type(SkillType.PASSIVE).nonInheritable()));
 
 }

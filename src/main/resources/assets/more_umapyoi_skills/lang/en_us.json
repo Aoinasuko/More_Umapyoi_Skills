@@ -18,6 +18,14 @@
 
   "support_card.more_umapyoi_skills.ssr_phoenix.name": "[Skill Training] Phoenix Dream",
 
+  "support_card.more_umapyoi_skills.ssr_witherrosesmash.name": "[Skill Training] WitherRoseSmash Dream",
+
+  "support_card.more_umapyoi_skills.sr_enoughstrength.name": "[Skill Training] EnoughStrength Dream",
+  "support_card.more_umapyoi_skills.ssr_brillianttechnique.name": "[Skill Training] BrilliantTechnique Dream",
+  "support_card.more_umapyoi_skills.ssr_smartlanding.name": "[Skill Training] SmartLanding Dream",
+  "support_card.more_umapyoi_skills.ssr_strongsmash.name": "[Skill Training] StrongSmash Dream",
+  "support_card.more_umapyoi_skills.ssr_stronglegs.name": "[Skill Training] StrongLegs Dream",
+
   "=== スキル ===" : "",
   "uma_skill.more_umapyoi_skills.pegasus": "Pegasus",
   "uma_skill.more_umapyoi_skills.lordofsky": "Lord of Sky",
@@ -36,6 +44,16 @@
   "uma_skill.more_umapyoi_skills.highmenace": "HighMenace",
 
   "uma_skill.more_umapyoi_skills.phoenix": "Phoenix",
+
+  "uma_skill.more_umapyoi_skills.witherrosesmash": "WitherRoseSmash",
+
+  "uma_skill.more_umapyoi_skills.enoughstrength": "EnoughStrength",
+  "uma_skill.more_umapyoi_skills.brillianttechnique": "BrilliantTechnique",
+  "uma_skill.more_umapyoi_skills.smartlanding": "SmartLanding",
+  "uma_skill.more_umapyoi_skills.strongsmash": "StrongSmash",
+  "uma_skill.more_umapyoi_skills.stronglegs": "StrongLegs",
+
+  "uma_skill.more_umapyoi_skills.immortalwill": "ImmortalWill",
 
   "=== バフ効果 ===" : "",
   "effect.more_umapyoi_skills.pegasus": "Pegasus",

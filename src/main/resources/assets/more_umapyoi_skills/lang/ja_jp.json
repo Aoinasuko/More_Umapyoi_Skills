@@ -18,6 +18,14 @@
 
   "support_card.more_umapyoi_skills.ssr_phoenix.name": "[スキルトレーニング] 不死鳥の夢",
 
+  "support_card.more_umapyoi_skills.ssr_witherrosesmash.name": "[スキルトレーニング] 黒花のかく乱の夢",
+
+  "support_card.more_umapyoi_skills.sr_enoughstrength.name": "[スキルトレーニング] 余力十分の夢",
+  "support_card.more_umapyoi_skills.ssr_brillianttechnique.name": "[スキルトレーニング] 華麗なテクニックの夢",
+  "support_card.more_umapyoi_skills.ssr_smartlanding.name": "[スキルトレーニング] スマートな着地の夢",
+  "support_card.more_umapyoi_skills.ssr_strongsmash.name": "[スキルトレーニング] 力強い一撃の夢",
+  "support_card.more_umapyoi_skills.ssr_stronglegs.name": "[スキルトレーニング] 粘り強い脚力の夢",
+
   "=== スキル ===" : "",
   "uma_skill.more_umapyoi_skills.pegasus" : "天馬",
   "uma_skill.more_umapyoi_skills.lordofsky" : "天の覇者",
@@ -36,6 +44,16 @@
   "uma_skill.more_umapyoi_skills.highmenace": "超威嚇",
 
   "uma_skill.more_umapyoi_skills.phoenix": "不死鳥",
+
+  "uma_skill.more_umapyoi_skills.witherrosesmash": "黒花のかく乱",
+
+  "uma_skill.more_umapyoi_skills.enoughstrength": "余力十分",
+  "uma_skill.more_umapyoi_skills.brillianttechnique": "華麗なテクニック",
+  "uma_skill.more_umapyoi_skills.smartlanding": "スマートな着地",
+  "uma_skill.more_umapyoi_skills.strongsmash": "力強い一撃",
+  "uma_skill.more_umapyoi_skills.stronglegs": "粘り強い脚力",
+
+  "uma_skill.more_umapyoi_skills.immortalwill": "不滅の意思",
 
   "=== バフ効果 ===" : "",
   "effect.more_umapyoi_skills.pegasus": "天馬",

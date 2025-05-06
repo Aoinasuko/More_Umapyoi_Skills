@@ -1,0 +1,22 @@
+{
+  "type": "speed",
+  "max_damage": 10,
+  "ranking": "sr",
+  "supports": [
+    {
+      "level": 2,
+      "support": "umapyoi:speed_support"
+    },
+    {
+      "level": 2,
+      "support": "umapyoi:random_status_support"
+    },
+    {
+      "level": 1,
+      "support": "umapyoi:skill_support",
+      "tag": {
+        "skill": "more_umapyoi_skills:enoughstrength"
+      }
+    }
+  ]
+}
