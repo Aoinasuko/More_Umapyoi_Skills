@@ -28,7 +28,8 @@ public class Menace_Skill extends UmaSkill {
         ItemStack soul = UmapyoiAPI.getUmaSoul(user);
 
         int skillLevel = this.getSkillLevel() * 2 - 1;
-        int skillTime = (200 * skillLevel) + (UmaSoulUtils.getProperty(soul)[4] >= 10 ? 200 : UmaSoulUtils.getProperty(soul)[4] >= 7 ? 100 : 0);
+        int wisdom = UmaSoulUtils.getProperty(soul).wisdom();
+        int skillTime = (200 * skillLevel) + (wisdom >= 10 ? 200 : wisdom >= 7 ? 100 : 0);
 
         AABB box = new AABB(user.getX() - 10.0f, user.getY() + 5.0f, user.getZ() - 10.0f, user.getX() + 10.0f, user.getY() - 5.0f, user.getZ() + 10.0f);
         List<LivingEntity> entities = level.getEntitiesOfClass(LivingEntity.class, box);

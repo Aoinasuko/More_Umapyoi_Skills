@@ -24,7 +24,7 @@ public class ActionPointHeal_Skill extends UmaSkill {
 
     public void applySkill(Level level, LivingEntity user) {
         this.SkillHealAmount = 0;
-        if (user.hasEffect(MUS_MobEffectRegistry.ACTION_COOLDOWN.get())) {
+        if (user.hasEffect(MUS_MobEffectRegistry.ACTION_COOLDOWN)) {
             if(user instanceof Player player) {
                 player.displayClientMessage(Component.translatable("info.more_umapyoi_skills.iscooldown"), true);
             }
@@ -32,9 +32,10 @@ public class ActionPointHeal_Skill extends UmaSkill {
         }
         ItemStack soul = UmapyoiAPI.getUmaSoul(user);
         int skillLevel = this.getSkillLevel();
-        int healamount = (1000 * skillLevel) + (UmaSoulUtils.getProperty(soul)[3] >= 10 ? 1000 : UmaSoulUtils.getProperty(soul)[3] >= 7 ? 500 : 0);
+        int guts = UmaSoulUtils.getProperty(soul).guts();
+        int healamount = (1000 * skillLevel) + (guts >= 10 ? 1000 : guts >= 7 ? 500 : 0);
         // クールダウンを30秒追加
-        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.ACTION_COOLDOWN.get(), 600, 0));
+        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.ACTION_COOLDOWN, 600, 0));
         // アクションポイントを回復
         this.SkillHealAmount = healamount * -1;
     }

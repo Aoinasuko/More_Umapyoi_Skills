@@ -20,7 +20,8 @@ public class Jump_Skill extends UmaSkill {
     public void applySkill(Level level, LivingEntity user) {
         ItemStack soul = UmapyoiAPI.getUmaSoul(user);
         int skillLevel = this.getSkillLevel() * 3;
-        int skillTime = 10 + (UmaSoulUtils.getProperty(soul)[2] >= 10 ? 10 : UmaSoulUtils.getProperty(soul)[2] >= 7 ? 5 : 0);
+        int strength = UmaSoulUtils.getProperty(soul).strength();
+        int skillTime = 10 + (strength >= 10 ? 10 : strength >= 7 ? 5 : 0);
         user.addEffect(new MobEffectInstance(MobEffects.LEVITATION, skillTime, skillLevel));
     }
 

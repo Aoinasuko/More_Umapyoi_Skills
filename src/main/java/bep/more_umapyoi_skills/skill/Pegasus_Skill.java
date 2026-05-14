@@ -19,9 +19,10 @@ public class Pegasus_Skill extends UmaSkill {
 
     public void applySkill(Level level, LivingEntity user) {
         ItemStack soul = UmapyoiAPI.getUmaSoul(user);
-        int skillTime = (this.getSkillLevel() * 200) + (UmaSoulUtils.getProperty(soul)[4] >= 10 ? 200 : UmaSoulUtils.getProperty(soul)[4] >= 7 ? 100 : 0);
+        int wisdom = UmaSoulUtils.getProperty(soul).wisdom();
+        int skillTime = (this.getSkillLevel() * 200) + (wisdom >= 10 ? 200 : wisdom >= 7 ? 100 : 0);
         int skillLevel = 0;
-        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.PEGASUS.get(), skillTime, skillLevel));
+        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.PEGASUS, skillTime, skillLevel));
     }
 
     @Override

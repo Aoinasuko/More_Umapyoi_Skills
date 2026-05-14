@@ -22,19 +22,20 @@ public class Phoenix_Skill extends UmaSkill {
     }
 
     public void applySkill(Level level, LivingEntity user) {
-        if (user.hasEffect(MUS_MobEffectRegistry.ACTION_COOLDOWN.get())) {
+        if (user.hasEffect(MUS_MobEffectRegistry.ACTION_COOLDOWN)) {
             if(user instanceof Player player) {
                 player.displayClientMessage(Component.translatable("info.more_umapyoi_skills.iscooldown"), true);
             }
             return;
         }
         ItemStack soul = UmapyoiAPI.getUmaSoul(user);
-        int skillTime = 40 + (UmaSoulUtils.getProperty(soul)[0] >= 10 ? 20 : UmaSoulUtils.getProperty(soul)[0] >= 7 ? 10 : 0);
+        int speed = UmaSoulUtils.getProperty(soul).speed();
+        int skillTime = 40 + (speed >= 10 ? 20 : speed >= 7 ? 10 : 0);
         user.heal(9999f);
         user.addEffect(new MobEffectInstance(MobEffects.SATURATION, skillTime / 4, 0));
         user.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, skillTime, 4));
         // クールダウンを30秒追加
-        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.ACTION_COOLDOWN.get(), 600, 0));
+        user.addEffect(new MobEffectInstance(MUS_MobEffectRegistry.ACTION_COOLDOWN, 600, 0));
     }
 
     @Override

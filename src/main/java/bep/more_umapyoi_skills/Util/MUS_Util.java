@@ -7,7 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.GameRules;
-import net.minecraftforge.common.MinecraftForge;
+import net.neoforged.neoforge.common.NeoForge;
 import net.tracen.umapyoi.item.ItemRegistry;
 import net.tracen.umapyoi.utils.UmaSoulUtils;
 import top.theillusivec4.curios.api.event.DropRulesEvent;
@@ -44,7 +44,7 @@ public class MUS_Util {
 
     // Curiosのインベントリのアイテム保持
     public static void curiosDropListener() {
-        MinecraftForge.EVENT_BUS.<DropRulesEvent>addListener(event -> {
+        NeoForge.EVENT_BUS.<DropRulesEvent>addListener(event -> {
             Entity entity = event.getEntity();
             if (!(entity instanceof ServerPlayer player)) {
                 return;
